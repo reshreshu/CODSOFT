@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: rgb(16, 56, 91);
+    color: rgb(243, 237, 237);
+    padding: 15px;
+    height: 100px;
+    text-align: center;
+}
+ul,li{
+    display: inline;
+}
+ul{
+    text-align: center;
+}
+li{
+    color: gray;
+    cursor: pointer;
+}
+li:hover{
+    color: white;
+}
+input{
+    width: 60%;
+    padding: 15px;
+}
+.searchbar{
+    padding: 25px;
+    text-align: center;
+}
+.box{
+
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 192px;
+    cursor: pointer;
+}
+.order{
+    display: inline;
+    text-align: center;
+    background-color: rgb(155, 137, 137);
+    color: white;
+}
+.products{
+    background-image: url(mob.jpg);
+    text-align: center;
+}
+.box:hover{
+    background-color: black;
+    color: blue;
+}
+.about{
+    background-color: rgb(196, 196, 245);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+.contact{
+    background-image: url(mob.jpg);
+    background-size: cover; 
+    text-align: center;
+    color: black;
+    padding: 40px;
+}
